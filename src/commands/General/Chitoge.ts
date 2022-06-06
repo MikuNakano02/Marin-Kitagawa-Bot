@@ -27,7 +27,7 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `💖 *MARIN* 💖\n\n🍀 *Description: A WhatsApp Bot With Rich NSFW features based on chitoge.*\n\n🌐 *OFFICIAL BOT URL: https://github.com/akumasugi/Marin-Kitagawa-Bot* \n\n 📒 *Guide: https://github.com/akumasugi/Marin-Kitagawa-Bot* \n\n 🔮 *BOT URL:https://github.com/akumasugi/Marin-Kitagawa-Bot* \n`,
+				caption: `💖 *MARIN* 💖\n\n🍀 *Description: Marin a Pervy girl in my opinion`,
 			}
 		);
 	};
