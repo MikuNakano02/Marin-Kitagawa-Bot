@@ -97,7 +97,7 @@ export default class MessageHandler {
         MessageType.video,
                     undefined,
                     undefined,
-                    `No such command, Baka! Have you never seen someone use the command *${this.client.config.prefix}help*`,
+                    `That command doesn't exist use the command *${this.client.config.prefix}help*`,
                     undefined
                 )
 		const user = await this.client.getUser(M.sender.jid);
@@ -115,11 +115,11 @@ export default class MessageHandler {
 			command.config?.modsOnly &&
 			!this.client.config.mods?.includes(M.sender.jid)
 		) {
-			return void M.reply(`Only MODS & akuma are allowed to use this command.`);
+			return void M.reply(`ᴏɴʟʏ ᴏᴡɴᴇʀ ɪꜱ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴇxᴇᴄᴜᴛᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ.`);
 		}
 		if (command.config?.adminOnly && !M.sender.isAdmin)
 			return void M.reply(
-				`This command is only meant for the group admins, Baka!`
+				`ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ɪꜱ ᴏɴʟʏ ᴍᴇᴀɴᴛ ꜰᴏʀ ᴛʜᴇ ɢʀᴏᴜᴘ ᴀᴅᴍɪɴꜱ!`
 			);
 		try {
 			await command.run(M, this.parseArgs(args));
