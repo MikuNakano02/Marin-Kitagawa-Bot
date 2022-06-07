@@ -93,7 +93,7 @@ export default class MessageHandler {
 			)}`
 		);
 			if (!command)
-				return void M.reply( await request.buffer(`https://c.tenor.com/R6TA-5HsCYUAAAPo/marin-laugh-marin-cackle.mp4`),
+				return void M.reply( await request.buffer(`https://c.tenor.com/5ikceTZsEoEAAAPo/marin-katagawa.mp4`),
         MessageType.video,
                     undefined,
                     undefined,
@@ -107,7 +107,7 @@ export default class MessageHandler {
 		});
 		if (state)
 			return void M.reply(
-				`✖ This command is disabled${
+				`✖ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ɪꜱ ᴅɪꜱᴀʙʟᴇᴅ ʙʏ ᴏᴡɴᴇʀ${
 					state.reason ? ` for ${state.reason}` : ""
 				}`
 			);
